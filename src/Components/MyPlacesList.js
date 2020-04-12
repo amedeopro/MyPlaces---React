@@ -14,7 +14,7 @@ class MyPlaceList extends Component{
                   <p className='place-title'>{myplace.name}</p>
                   <p>{myplace.type}</p>
                 </div>
-
+                <button className='place-remove'>Remove</button>
             </li>))}
         </ol>
   }

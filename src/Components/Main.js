@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from './Header'
 import MyPlacesList from './MyPlacesList'
+import Footer from './Footer'
 
 const attractions = [
     {
@@ -108,9 +109,9 @@ const attractions = [
 class Main extends Component{
   render(){
     return <div>
-      <Header/>
+      <Header titolo="MyPlaces" />
       <MyPlacesList myplaces={attractions}/>
-
+      <Footer/>
     </div>
   }
 }
